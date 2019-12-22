@@ -6,8 +6,6 @@ https://pattyappier.blog/2019/01/17/cloud-sql/
 
 https://pattyappier.blog/2019/01/17/cloud-datastore-應用程式非關聯性式儲存機制/
 
-如： CloudKit, Firebase, AWS, Azure.
-
 Firebase from GCP https://console.firebase.google.com/?pli=1 
 
 StackMob https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance.29999/
