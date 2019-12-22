@@ -14,7 +14,7 @@ StackMob https://www.spigotmc.org/resources/stackmob-enhance-your-servers-perfor
 
 Parse from FB https://parseplatform.org 
 
-# Background, 淵源
+# Background
 
 * 人力成本：
 
@@ -32,11 +32,11 @@ Parse from FB https://parseplatform.org
 
       BaaS服務提供商的基礎服務是數據/文件存儲，主要幫助 App 開發者解決存儲的問題。更進一步的集成服務則包括：帳戶驗證管理、遠端消息推送推播、廣告推薦等。
 
-# API || SDK, 程式介面和套件工具
+# API & SDK
 
 BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另一種是SDK模式，提供如iOS、Android及Windows Phone等的SDK。
 
-# Exprience as a Reusalbe SDK, 將成功經驗化為工具
+# Reused Features
 
 * offline cache, 離線快取或是離線資料庫 （筆者尚未研究）
 
@@ -50,7 +50,7 @@ BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另�
 * users behavior analytics, 使用者行為分析
 
 
-# Extension, 擴充功能
+# Extension
 
 * adMob, 應用程式內廣告，安裝與設定廣告。
 
@@ -80,7 +80,7 @@ BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另�
 
   android: implementation 'com.crashlytics.sdk.android:crashlytics:2.9.3"
     
-# feature for Web app, 其他功能
+# Feature for Web 
 
 * Host, 靜態網頁頁面來源:
 
@@ -92,7 +92,7 @@ BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另�
 
       適合 web app + mobile app 一起使用，細部筆者尚需研究。
 
-# share resources among instances, 多個實例間共享資源
+# Share Resources 
 
  * Cassandra (Column-oriented)
  
