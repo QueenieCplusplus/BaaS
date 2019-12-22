@@ -96,6 +96,8 @@ BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另�
 
  * Cassandra (Column-oriented)
  
+   https://github.com/QueenieCplusplus/DataMining_Cassandra
+ 
  * Redis (k/V-oriented)
 
  * MongoDB (Doc-oriented)
