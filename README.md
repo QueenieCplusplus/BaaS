@@ -124,3 +124,5 @@ FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 
  * PostgreSQL
 
 
+
+
