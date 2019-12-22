@@ -55,18 +55,18 @@ FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 
 
 # Extension, 擴充功能
 
-*adMob, 應用程式內廣告，安裝與設定廣告。
+* adMob, 應用程式內廣告，安裝與設定廣告。
 
-*invents, 一種以使用者拉使用者的一種機制，不同的社群間推廣。
+* invents, 一種以使用者拉使用者的一種機制，不同的社群間推廣。
 
-*A/B testing, 持續應用體驗, 利用 remote config, 不改原有代碼，完成測試。
+* A/B testing, 持續應用體驗, 利用 remote config, 不改原有代碼，完成測試。
 
        其他類似的應用尚有 Performance Monitor（針對國家地區對畫面和網路做效能分析）、Test Lab（自動化測試工具）。
        //
 
-*Cloud Firestore, 雲端資料庫：
+* Cloud Firestore, 雲端資料庫：
 
-  https://pattyappier.blog/2019/01/17/cloud-sql/
+   https://pattyappier.blog/2019/01/17/cloud-sql/
 
     支援更多資料格式，例如 geopint、reference。
  
@@ -74,22 +74,14 @@ FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 
  
     負載不足，會自動擴展。
   
-    限制：因為與 Realtime DB 架構不同，故兩者無法轉換。
+    限制：因為與 Realtime DB 的 Firebase 架構不同，故兩者無法轉換。
      //
 
-*crashlytics, 閃退分析器：
+* crashlytics, 閃退分析器：
 
-  ios:
+  ios: pod 'Crashlytics', '~>3.9.3"
 
-    // PodFile
-
-    pod 'Crashlytics', '~>3.9.3"
-
-  android:
-
-    // add dependency in Gradle file
-
-    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.3"
+  android: implementation 'com.crashlytics.sdk.android:crashlytics:2.9.3"
     
 # feature for Web app, 其他功能
 
