@@ -6,6 +6,8 @@ https://pattyappier.blog/2019/01/17/cloud-sql/
 
 https://pattyappier.blog/2019/01/17/cloud-datastore-應用程式非關聯性式儲存機制/
 
+FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 Firebase 作為對外的 BaaS 服務。從 2016 年 I/O 大會起，直至 2018 年，歷經兩年，方才成熟穩定，目前慢慢追加擴充功能。
+
 Firebase from GCP https://console.firebase.google.com/?pli=1 
 
 StackMob https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance.29999/
@@ -34,24 +36,19 @@ Parse from FB https://parseplatform.org
 
 BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另一種是SDK模式，提供如iOS、Android及Windows Phone等的SDK。
 
-# News not new now, 不是太新的新聞
-
-FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 Firebase 作為對外的 BaaS 服務。從 2016 年 I/O 大會起，直至 2018 年，歷經兩年，方才成熟穩定，目前慢慢追加擴充功能。
-
 # Exprience as a Reusalbe SDK, 將成功經驗化為工具
 
-* offline cache, 離線快取或是離線資料庫
+* offline cache, 離線快取或是離線資料庫 （筆者尚未研究）
 
 * login auth, 登入驗證
-  筆者於2018年使用過。
-
-* realtime DB, 即時資料庫 
-  筆者於2018年使用過。
-
-* users behavior analytics, 使用者行為分析
 
 * cloud message (remote notification), 遠(雲)端推播
   筆者於2018年使用過。
+
+* realtime DB, 即時資料庫 
+
+* users behavior analytics, 使用者行為分析
+
 
 # Extension, 擴充功能
 
