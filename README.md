@@ -102,6 +102,8 @@ BaaS分兩種模式：一種是API模式，讓開發者自己拓展代碼；另�
 
  * MongoDB (Doc-oriented)
  
+   https://github.com/QueenieCplusplus/Backend_Script
+ 
  * CouchDB (Doc-oriented) 筆者尚未研究
  
  * Dynamo DB (k/V-oriented) 筆者尚未研究
