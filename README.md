@@ -93,13 +93,13 @@ FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 
     
 # feature for Web app, 其他功能
 
-*Host, 靜態網頁頁面來源:
+* Host, 靜態網頁頁面來源:
 
 當需要用到固定資料，或單純利用 Http Requst 存取 Restful Api 時，由於 Open Data 常常放入我們開發者不需要的資訊，增加煩擾不便，故此網站伺服器功能，能提供靜態網頁，穩定的頁面來源，提供手機做資料來源的媒介。
 
-*App Index, SEO 應用程式推廣
+* App Index, SEO 應用程式推廣
 
-*Dynamic Links, 深度動態連結：
+* Dynamic Links, 深度動態連結：
 
   適合 web app + mobile app 一起使用，細部筆者尚需研究。
   
