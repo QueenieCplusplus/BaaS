@@ -16,19 +16,19 @@ Parse from FB https://parseplatform.org
 
 * 人力成本：
 
-行動應用的製作成本是非常高的，基於團隊人才需要包含 UI、iOS、Android、Backend、DB、Frontend 之外，手機系統本身也擁有其複雜程度和難以預料的意外狀況。
+      行動應用的製作成本是非常高的，基於團隊人才需要包含 UI、iOS、Android、Backend、DB、Frontend 之外，手機系統本身也擁有其複雜程度和難以預料的意外狀況。
 
 * 網路不穩：
 
-不同於 Web app 的 always on line，手機的網路是行進中的網路，傳輸資料的品質不容易控制。
+      不同於 Web app 的 always on line，手機的網路是行進中的網路，傳輸資料的品質不容易控制。
 
 * 行動後端：
 
-目前 GCP、AWS、Azure 基於後端開發的思考，從 web js 衍生出對行動應用的 iOS/Android 的應用設計。
+      目前 GCP、AWS、Azure 基於後端開發的思考，從 web js 衍生出對行動應用的 iOS/Android 的應用設計。
 
 * 集成服務：
 
-BaaS服務提供商的基礎服務是數據/文件存儲，主要幫助 App 開發者解決存儲的問題。更進一步的集成服務則包括：帳戶驗證管理、遠端消息推送推播、廣告推薦等。
+      BaaS服務提供商的基礎服務是數據/文件存儲，主要幫助 App 開發者解決存儲的問題。更進一步的集成服務則包括：帳戶驗證管理、遠端消息推送推播、廣告推薦等。
 
 # API || SDK, 程式介面和套件工具
 
@@ -95,25 +95,25 @@ FB 收購 Parse 不做對外服務，而是內化予內部應用; Googls 收購 
 
 * Host, 靜態網頁頁面來源:
 
-當需要用到固定資料，或單純利用 Http Requst 存取 Restful Api 時，由於 Open Data 常常放入我們開發者不需要的資訊，增加煩擾不便，故此網站伺服器功能，能提供靜態網頁，穩定的頁面來源，提供手機做資料來源的媒介。
+      當需要用到固定資料，或單純利用 Http Requst 存取 Restful Api 時，由於 Open Data 常常放入我們開發者不需要的資訊，增加煩擾不便，故此網站伺服器功能，能提供靜態網頁，穩定的頁面來源，提供手機做資料來源的媒介。
 
 * App Index, SEO 應用程式推廣
 
 * Dynamic Links, 深度動態連結：
 
-  適合 web app + mobile app 一起使用，細部筆者尚需研究。
-  
+      適合 web app + mobile app 一起使用，細部筆者尚需研究。
+
 # share resources among instances, 多個實例間共享資源
 
  * Cassandra (Column-oriented)
  
- * Redis ＆ Dynamo (k/V-oriented)
+ * Redis (k/V-oriented)
 
  * MongoDB (Doc-oriented)
  
- * CouchDB (Doc-oriented)
+ * CouchDB (Doc-oriented) 筆者尚未研究
  
- * PostgreSQL
+ * Dynamo DB (k/V-oriented) 筆者尚未研究
 
 
 
