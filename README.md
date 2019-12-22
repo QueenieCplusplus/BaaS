@@ -8,17 +8,11 @@ https://pattyappier.blog/2019/01/17/cloud-datastore-應用程式非關聯性式�
 
 如： CloudKit, Firebase, AWS, Azure.
 
-Firebase
+Firebase from GCP https://console.firebase.google.com/?pli=1 
 
-https://console.firebase.google.com/?pli=1 (Google)
+StackMob https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance.29999/
 
-StackMob
-
-https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance.29999/
-
-Parse 
-
-https://parseplatform.org FB)
+Parse from FB https://parseplatform.org 
 
 # Background, 淵源
 
