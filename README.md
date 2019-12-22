@@ -8,15 +8,15 @@ https://pattyappier.blog/2019/01/17/cloud-datastore-應用程式非關聯性式�
 
 如： CloudKit, Firebase, AWS, Azure.
 
-# Firebase
+Firebase
 
 https://console.firebase.google.com/?pli=1 (Google)
 
-# StackMob
+StackMob
 
 https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance.29999/
 
-# Parse 
+Parse 
 
 https://parseplatform.org FB)
 
